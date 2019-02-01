@@ -1,0 +1,10 @@
+name: supervised-learning
+
+dependencies:
+    - python=3.6
+    - numpy
+    - scipy
+    - scikit-learn
+    - matplotlib
+    - IPython
+    - jupyter
