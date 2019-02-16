@@ -5,19 +5,21 @@ Some of scripts are based on the [examples](https://github.com/keras-team/keras/
 
 ## Requirements 
 
-These notebooks should be compatible with python 2.7 or 3.6 and require the following packages:
-* NumPy
-* SciPy
-* Matplotlib
-* Pandas
-* Root_pandas
-* Keras (with either TensorFlow or Theano backend)
+These notebooks should be compatible with python 3.5+.
 
 The following packages are also requiered to use a virutalenv in Jupyter:
 * iPyKernel
 
-The recommended installation is with a python [virtual enviroment](https://virtualenv.pypa.io/en/stable/) or similar (conda environment).
+The recommended installation is by using [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb#recent=true). Alternatively, if you do not want to create a Google account, you may also install using a python [virtual enviroment](https://virtualenv.pypa.io/en/stable/) or similar (conda environment).
 
+## Running via Google Colab
+
+To run the ipython notebook script in Google Colab, click the following link ([Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb#recent=true)). After having gone to the previous link, copy and paste the GitHub link to the `deep_learning.ipynb` script in the Google Colab GitHub tab. This will load in the ipython notebook. 
+
+if you go to the upper right-hand portion of the page and click Edit -> Notebook settings. Once there, click the drop down menu labelled "hardware accelerator" and select GPU. You can now run the whole notebook on your own [K80 GPU](https://www.nvidia.com/en-gb/data-center/tesla-k80/).  Alternatively, you could also try using a TPU, but I don't find that these help much with these exercises.
+
+
+Again, I would highly recommend using this over running on your own machine, as deep neural networks are quite computationaly expensive and will take awhile to run on your local machine.
 ## Installation with virtualenv
 
 These instructions will assume you have a version of python installed with pip.
@@ -38,7 +40,7 @@ $ pip install virtualenv --user
 If installing with ``--user``, an alias must be added to your ``.bashrc``/``.cshrc`` or equivalent. Something along the lines of:
 
 ```
-alias virtualenv "python ~/.local/lib/python2.7/site-packages/virtualenv.py"
+alias virtualenv "python ~/.local/lib/python3.7/site-packages/virtualenv.py"
 ```
 Virtualenv can now be used to create separate python instances to better manage different dependencies.
 
