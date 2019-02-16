@@ -16,7 +16,7 @@ The recommended installation is by using [Google Colab](https://colab.research.g
 
 To run the ipython notebook script in Google Colab, click the following link ([Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb#recent=true)). After having gone to the previous link, copy and paste the GitHub link to the `deep_learning.ipynb` script in the Google Colab GitHub tab. This will load in the ipython notebook. 
 
-if you go to the upper right-hand portion of the page and click Edit -> Notebook settings. Once there, click the drop down menu labelled "hardware accelerator" and select GPU. You can now run the whole notebook on your own [K80 GPU](https://www.nvidia.com/en-gb/data-center/tesla-k80/).  Alternatively, you could also try using a TPU, but I don't find that these help much with these exercises.
+if you go to the upper left-hand portion of the page and click Edit -> Notebook settings. Once there, click the drop down menu labelled "hardware accelerator" and select GPU. You can now run the whole notebook on your own [K80 GPU](https://www.nvidia.com/en-gb/data-center/tesla-k80/).  Alternatively, you could also try using a TPU, but I don't find that these help much with these exercises.
 
 
 Again, I would highly recommend using this over running on your own machine, as deep neural networks are quite computationaly expensive and will take awhile to run on your local machine.
